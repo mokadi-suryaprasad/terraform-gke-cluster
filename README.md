@@ -11,7 +11,7 @@ Prometheus is an open-source system for monitoring and sending alerts. It collec
 ### Prometheus Architecture
 Here's a simple view of how Prometheus works:
 
-![Prometheus Architecture](prometheus-architecture.gif)
+![alt text](prometheus-architecture.gif)
 
 - **Prometheus Server**: The main component that collects (scrapes) metrics and stores them.
 - **Service Discovery**: Automatically finds services and applications to monitor.
