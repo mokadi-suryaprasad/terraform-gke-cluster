@@ -16,7 +16,7 @@ resource "google_compute_firewall" "allow_custom_ports" {
 
   allow {
     protocol = "tcp"
-    ports    = ["80", "8080", "9090", "9093"]
+    ports    = ["22", "80", "8080", "9090", "9093"]
   }
 
   source_ranges = ["0.0.0.0/0"] # Allow from all IPs (Adjust for security)
