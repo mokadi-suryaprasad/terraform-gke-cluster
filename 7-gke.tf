@@ -2,7 +2,7 @@ resource "google_container_cluster" "gke" {
   name                     = "demo"
   location                 = "us-central1-a"
   remove_default_node_pool = true
-  initial_node_count       = 1
+  initial_node_count       = 2
   network                  = google_compute_network.vpc.self_link
   subnetwork               = google_compute_subnetwork.private.self_link
   networking_mode          = "VPC_NATIVE"
